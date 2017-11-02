@@ -54,7 +54,30 @@ print(my_dict["double feature screen"])
 isit = "so hot, it's stolen" in my_dict
 print(isit)
 
+# Challenge 1. Make a list of musicioans
+myMusic = ["21 Pilots", "Lumineers", "Mumford and Sons"]
+print_list(myMusic)
 
+# Challenge 2. Create  a list of Tuples of cities.
+Denver = (39.7392, 104.9903)
+Atlanta = (33.7490, 84.3880)
+London = (51.5074, 0.1278)
+myCities = [Atlanta, Denver, London]
+print_list(myCities)
+
+#Challenge 3. Create a dictionary
+superSize = dict()
+superSize["age"] = 44
+superSize["height"] = 80
+superSize["weight"] = 300
+superSize["hair"] = "red"
+print(superSize["age"])
+
+#Challenge 6. What is a set?
+# Sets are unordered collections of items. Each element is unique and immutable.
+# The set is mutable. The elements are not.
+myset = {1,2,3,4,3,2,1}
+print(myset)  #duplicates will drop out
 
 
 
