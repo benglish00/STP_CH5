@@ -33,6 +33,30 @@ isitnot = "orange" not in fruit
 print(isitnot)
 
 #TUPLES: IMMUTABLE LISTS. SPECIFIC ORDER, ITERABLE
+oldlady = tuple()
+print(oldlady)
+oldlady = ("Miss Jackson", "Apology", True, 1000,)
+print(oldlady)
+print(len(oldlady))
+print_list(oldlady)
+
+#DICTRIONARIES LINE A KEY TO AN VALUE. MAPPING INO KEY-VALUE PAIRS
+#MUTABLE, NO SPECIFIC ORDER
+print("-----------------dictionaries-------------------")
+my_dict = dict()
+my_dict = {}
+print(my_dict)
+my_dict["double feature screen"] = "straight to dvd"
+my_dict["bigger than a bridge"] = "look like a little kid's"
+my_dict["locked in a cage, right"] = "suffer from stage fright"
+my_dict["so hot, it's stolen"] = "look like Gary Coleman"
+print(my_dict["double feature screen"])
+isit = "so hot, it's stolen" in my_dict
+print(isit)
+
+
+
+
 
 
 
